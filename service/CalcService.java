@@ -5,7 +5,7 @@ public interface CalcService {
 
     Integer plusCalc(Integer num1, Integer num2);
 
-    Integer minusCalc(Integer num1, Integer num2);
+    Integer  minusCalc(Integer num1, Integer num2);
 
     Integer multiply(Integer num1, Integer num2);
 

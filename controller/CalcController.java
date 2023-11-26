@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 @RequestMapping("/calculator")
 @RestController
 public class CalcController {
-    private final CalcService calcService;
+    private  final CalcService calcService;
 
     public CalcController(CalcService calcService) {
         this.calcService = calcService;
